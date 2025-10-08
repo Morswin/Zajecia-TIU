@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        label {
+            font-weight: bold;
+        }
+
+        table {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../start.html">Wróć!</a>
+    </nav>
+    <h2>No to czas na test</h2>
+    <table border="1">
+        <tr>
+            <td>Lp.</td>
+            <td>Pytanie</td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Jaki jest Twój ulubiony kolor?!</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Uzasadnij swoją odpowiedź.</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Tak czy nie?</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Pies czy kot?</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Podana liczba jest podzielna przez 7 czy nie?</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Nazwij dystrybucje linuxa</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Zaznacz liczby nieparzyste</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Zaznacz spółgłoski</td>
+        </tr>
+    </table>
+    <form action="https://httpbin.org/post" method="post" target="_blank">
+        <label>Odp1</label><br />
+        <input type="text" name="pyt1" value="" /><br />
+        <label>Odp2</label><br />
+        <textarea name="pyt2"></textarea><br />
+        <label>Odp3</label><br />
+        <select name="pyt3">
+            <option value="Tak">Tak</option>
+            <option value="Nie">Nie</option>
+            <option value="Możliwe">Możliwe</option>
+        </select><br />
+        <label>Odp4</label><br />
+        <select name="pyt4" size="3">
+            <option value="Pies">Pies</option>
+            <option value="Kot">Kot</option>
+            <option value="Wróbel">Wróbel</option>
+        </select><br />
+        <label>Odp5</label><br />
+        <input type="radio" name="pyt5" value="Tak" /><label>Tak</label><br />
+        <input type="radio" name="pyt5" value="Nie" /><label>Nie</label><br />
+        <label>Odp6</label><br />
+        <select name="pyt6" size="3" multiple>
+            <option value="Uwuntu">Uwuntu</option>
+            <option value="ArchLunix">ArchLunix</option>
+            <option value="LFS">Jestem Hardkorem</option>
+        </select><br />
+        <img src="../grafika/obrazek.jpg" alt="Obrazek Pomocniczy" /><br />
+        <label>Odp7</label><br />
+        <input type="checkbox" name="pyt7.1" value="10" /><label>10</label> <br />
+        <input type="checkbox" name="pyt7.2" value="1000" /><label>1000</label> <br />
+        <input type="checkbox" name="pyt7.3" value="1000000" /><label>1000000</label> <br />
+        <label>Odp8</label><br />
+        <input type="checkbox" name="pyt8" value="A" /><label>A</label> <br />
+        <input type="checkbox" name="pyt8" value="Ą" /><label>Ą</label> <br />
+        <input type="checkbox" name="pyt8" value="Y" /><label>Y</label> <br />
+        <button type="submit">Sprawdź!</button>
+    </form>
+</body>
+</html>

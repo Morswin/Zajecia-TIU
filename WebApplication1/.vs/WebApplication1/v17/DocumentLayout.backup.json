@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tomasz Tiu\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|d:\\tomasz tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\start.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\start.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|d:\\tomasz tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|d:\\tomasz tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\podstrony\\test.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\podstrony\\test.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|d:\\tomasz tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\podstrony\\wiersz.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\podstrony\\wiersz.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test.html",
+              "DocumentMoniker": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
+              "ToolTip": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-08T08:46:34.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "wyszukiwarka.html",
+              "DocumentMoniker": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html",
+              "ToolTip": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-08T08:28:51.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "start.html",
+              "DocumentMoniker": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\start.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\start.html",
+              "ToolTip": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\start.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\start.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-08T08:09:51.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "wiersz.html",
+              "DocumentMoniker": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\wiersz.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\podstrony\\wiersz.html",
+              "ToolTip": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\wiersz.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\podstrony\\wiersz.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-08T08:02:29.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
