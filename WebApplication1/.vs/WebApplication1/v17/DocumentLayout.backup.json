@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Tomasz Tiu\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|d:\\tomasz tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\start.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\start.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\czerwona.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\czerwona.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|d:\\tomasz tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|d:\\tomasz tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\podstrony\\test.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\podstrony\\test.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\podstrony\\test.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|d:\\tomasz tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\podstrony\\wiersz.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\podstrony\\wiersz.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\podstrony\\menu.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\podstrony\\menu.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\zielona.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\zielona.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\webapplication1\\webapplication1\\wwwroot\\strony\\niebieska.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714C272D-E9EC-4D5C-860B-BB60A1AF454E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\strony\\niebieska.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "test.html",
-              "DocumentMoniker": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
-              "ToolTip": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-08T08:46:34.121Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "wyszukiwarka.html",
-              "DocumentMoniker": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html",
-              "ToolTip": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\podstrony\\wyszukiwarka.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Title": "test.html",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\podstrony\\test.html",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-08T08:28:51.196Z",
+              "WhenOpened": "2025-10-20T08:08:49.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "menu.html",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\menu.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\podstrony\\menu.html",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\menu.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\podstrony\\menu.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-15T09:21:24.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "start.html",
-              "DocumentMoniker": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\start.html",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\start.html",
-              "ToolTip": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\start.html",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\start.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Title": "czerwona.html",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\czerwona.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\czerwona.html",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\czerwona.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\czerwona.html",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAuwIIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-08T08:09:51.067Z",
+              "WhenOpened": "2025-10-15T09:19:07.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "wiersz.html",
-              "DocumentMoniker": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\wiersz.html",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\podstrony\\wiersz.html",
-              "ToolTip": "D:\\Tomasz Tiu\\WebApplication1\\WebApplication1\\wwwroot\\strony\\podstrony\\wiersz.html",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\podstrony\\wiersz.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Title": "zielona.html",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\zielona.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\zielona.html",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\zielona.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\zielona.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-08T08:02:29.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T09:20:50.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "niebieska.html",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\niebieska.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\strony\\niebieska.html",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\WebApplication1\\WebApplication1\\wwwroot\\strony\\niebieska.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\strony\\niebieska.html",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-15T09:21:07.458Z"
             }
           ]
         }

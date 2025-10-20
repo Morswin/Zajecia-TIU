@@ -1,0 +1,39 @@
+﻿$najasno: true;
+
+@mixin motyw-jasny {
+    background-color: #f8f8f8;
+    color: #222;
+
+    a {
+        color: #0077cc;
+    }
+
+    input[type="text"] {
+        background-color: #ddd;
+        color: #000;
+    }
+}
+
+@mixin motyw-ciemny {
+    background-color: #222;
+    color: #f8f8f8;
+
+    a {
+        color: #ffcc00;
+    }
+
+    input[type="text"] {
+        background-color: #444;
+        color: #fff;
+    }
+}
+
+body {
+    @if $najasno == true {
+        @include motyw-jasny;
+    }
+    @else {
+        @include motyw-ciemny;
+    }
+}
+

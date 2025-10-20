@@ -1,0 +1,44 @@
+﻿@najasno: true;
+
+.motyw-jasny() {
+    background-color: #f8f8f8;
+    color: #222;
+
+    a {
+        color: #0077cc;
+    }
+
+    input[type="text"] {
+        background-color: #ddd;
+        color: #000;
+    }
+}
+
+.motyw-ciemny() {
+    background-color: #222;
+    color: #f8f8f8;
+
+    a {
+        color: #ffcc00;
+    }
+
+    input[type="text"] {
+        background-color: #444;
+        color: #fff;
+    }
+}
+
+.body-motyw-jasny() when (@najasno = true) {
+    body {
+        .motyw-jasny();
+    }
+}
+
+.body-motyw-ciemny() when (@najasno = false) {
+    body {
+        .motyw-ciemny();
+    }
+}
+
+.body-motyw-jasny();
+.body-motyw-ciemny();

@@ -1,0 +1,29 @@
+﻿body{
+    padding-left: 2.5rem;
+    background-image: url("../strony/grafika/skoroszyt.png");
+    background-repeat: repeat-y;
+    background-position: left top;
+    background-attachment: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+        color: orange;
+        text-decoration: underline;
+    }
+
+input[type="text"], textarea {
+    background-color: #ddd;
+    border: 1px solid #999;
+    padding: 5px;
+    transition: background-color 0.2s;
+}
+
+    input[type="text"]:focus, textarea:focus {
+        background-color: #ffeb3b;
+        outline: none;
+    }

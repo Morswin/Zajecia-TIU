@@ -1,0 +1,11 @@
+﻿body {
+  background-color: #f8f8f8;
+  color: #222;
+}
+body a {
+  color: #0077cc;
+}
+body input[type=text] {
+  background-color: #ddd;
+  color: #000;
+}
