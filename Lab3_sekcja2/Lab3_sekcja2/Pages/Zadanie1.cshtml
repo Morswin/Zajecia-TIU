@@ -1,0 +1,23 @@
+﻿@page "/"
+@model Lab3_sekcja2.Pages.Zadanie1Model
+@{
+}
+
+<div class="text-center">
+	<table class="table table-striped border-1">
+		@{
+			@for (int i = 0; i < 6; i++)
+			{
+				<tr>
+					@{
+						DateTime dateTime = DateTime.Now;
+						@for (int j = 0; j < 5; j++)
+						{
+							<td class="@(dateTime.Day == i * 5 + j + 1 ? "bg-primary" : "bg-warning")">@(i * 5 + j + 1)</td>
+						}
+					}
+				</tr>
+			}
+		}
+	</table>
+</div>

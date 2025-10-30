@@ -1,0 +1,61 @@
+﻿@page "/walec"
+@model Lab3_sekcja2.Pages.walecModel
+@{
+}
+@using System.Text.RegularExpressions;
+
+<!--Proszę stworzyć stronę walec.cshtml na której użytkownik poda wysokość i promień
+walca, a po naciśnięciu przycisku Oblicz w oparciu o skrypt serwerowy wymiary walca,
+jego objętość, pole pole powierzchni i objętość wyświetlą się jako kolejne wiersze
+tabeli u dołu strony. Objętość i pole powinny być wyświetlane z dokładnością do 2
+miejsca po przecinku.
+Formularz powinien być wysyłany metodą get.
+Uzupełnić kod o sprawdzenie przy pomocy wyrażeń regularnych, czy wprowadzone
+wymiary są liczbami całkowitymi, a wysokość jest dodatkowo liczbą parzystą.
+Umożliwić wybór przy pomocy opcji radio rodzaju bryły: walca, stożka, podwójnego
+stożka.-->
+
+<div>
+	<form method="get">
+		Wysokość: <input type="text" name="wysokosc" />
+		Promień: <input type="text" name="promien" />
+		<input type="submit" value="Oblicz" />
+	</form>
+	@{
+		if (Request.Query.Count > 0)
+		{
+			String h_ = Request.Query["wysokosc"].ToString();
+			String r_ = Request.Query["promien"].ToString();
+			double h, r, V, P;
+			bool czyCalkowiteH = Regex.IsMatch(h_, @"^\d+$");
+			bool czyCalkowiteR = Regex.IsMatch(r_, @"^\d+$");
+			bool czyHParzyste = Regex.IsMatch(h_, @"^\d*[02468]{1}$");
+			h = Convert.ToDouble(h_);
+			r = Convert.ToDouble(r_);
+			V = Math.PI * Math.Pow(r, 2) * h;
+			P = (2 * Math.PI * Math.Pow(r, 2)) + (2 * Math.PI * r * h);
+			<table class="table table-striped" >
+				<tr>
+					<td>
+						Objętość: @(Math.Round(V, 2))
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Pole Powierzchni: @(Math.Round(P, 2))
+					</td>
+				</tr>
+				<tr>
+					<td>
+						@(czyCalkowiteH && czyCalkowiteR ? "Są całkowite" : "Nie są całkowite")
+					</td>
+				</tr>
+				<tr>
+					<td>
+						@(czyHParzyste ? "H jest parzyste" : "H nie jest parzyste")
+					</td>
+				</tr>
+			</table>
+		}
+	}
+</div>
