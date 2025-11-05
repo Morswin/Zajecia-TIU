@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab3_sekcja2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB523C91-00BC-446A-83ED-EA3178CFB4C0}|Lab3_sekcja2\\Lab3_sekcja2.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\lab3_sekcja2\\lab3_sekcja2\\pages\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB523C91-00BC-446A-83ED-EA3178CFB4C0}|Lab3_sekcja2\\Lab3_sekcja2.csproj|solutionrelative:lab3_sekcja2\\pages\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB523C91-00BC-446A-83ED-EA3178CFB4C0}|Lab3_sekcja2\\Lab3_sekcja2.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\lab3_sekcja2\\lab3_sekcja2\\pages\\walec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB523C91-00BC-446A-83ED-EA3178CFB4C0}|Lab3_sekcja2\\Lab3_sekcja2.csproj|solutionrelative:lab3_sekcja2\\pages\\walec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "test.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab3_sekcja2\\Lab3_sekcja2\\Pages\\test.cshtml",
+              "RelativeDocumentMoniker": "Lab3_sekcja2\\Pages\\test.cshtml",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab3_sekcja2\\Lab3_sekcja2\\Pages\\test.cshtml",
+              "RelativeToolTip": "Lab3_sekcja2\\Pages\\test.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T06:30:27.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Zadanie1.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab3_sekcja2\\Lab3_sekcja2\\Pages\\Zadanie1.cshtml.cs",
               "RelativeDocumentMoniker": "Lab3_sekcja2\\Pages\\Zadanie1.cshtml.cs",
@@ -46,20 +63,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "walec.cshtml",
               "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab3_sekcja2\\Lab3_sekcja2\\Pages\\walec.cshtml",
               "RelativeDocumentMoniker": "Lab3_sekcja2\\Pages\\walec.cshtml",
               "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab3_sekcja2\\Lab3_sekcja2\\Pages\\walec.cshtml",
               "RelativeToolTip": "Lab3_sekcja2\\Pages\\walec.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwB8AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwCEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-29T12:00:57.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "walec.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab3_sekcja2\\Lab3_sekcja2\\Pages\\walec.cshtml.cs",
               "RelativeDocumentMoniker": "Lab3_sekcja2\\Pages\\walec.cshtml.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab3_sekcja2\\Lab3_sekcja2\\Program.cs",
               "RelativeDocumentMoniker": "Lab3_sekcja2\\Program.cs",

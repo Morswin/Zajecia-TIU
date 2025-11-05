@@ -1,0 +1,144 @@
+﻿@page
+@model Lab3_sekcja2.Pages.testModel
+@{
+    int punkty = 0;
+    string ocena = "";
+    bool pokazWynik = false;
+
+    if (Request.Method == "POST")
+    {
+        var pyt1 = Request.Form["pyt1"];
+        var pyt2 = Request.Form["pyt2"];
+        var pyt3 = Request.Form["pyt3"];
+        var pyt4 = Request.Form["pyt4"];
+        var pyt5 = Request.Form["pyt5"];
+        var p6 = Request.Form["pyt6"].ToList();
+        var p7 = Request.Form["pyt7"].ToList();
+        var p8 = Request.Form["pyt8"].ToList();
+
+        pokazWynik = true;
+
+        if (pyt1.ToString().Trim().ToLower() == "docker pull node:latest") punkty++;
+        if (pyt2.ToString().Trim().ToLower() == "docker images") punkty++;
+        if (pyt3 == "Tak") punkty++;
+        if (pyt4 == "kroki") punkty++;
+        if (pyt5 == "Nie") punkty++;
+
+        if (p6.Contains("build") && p6.Contains("rmi") && p6.Count == 2)
+            punkty++;
+
+        if (p7.Contains("uruchomic") && p7.Contains("okreslic") && p7.Count == 2)
+            punkty++;
+
+        if (p8.Contains("latwiejsze") && p8.Contains("spojne") && p8.Count == 2)
+            punkty++;
+
+        if (punkty == 8) ocena = "5.0 (celujący)";
+        else if (punkty >= 6) ocena = "4.5 (bardzo dobry)";
+        else if (punkty >= 5) ocena = "4.0 (dobry)";
+        else if (punkty >= 4) ocena = "3.0 (dostateczny)";
+        else ocena = "2.0 (niedostateczny)";
+    }
+}
+<div>
+    <h2>No to czas na test o dockerze</h2>
+    <form method="post">
+        <table class="table">
+            <tr>
+                <td>Lp.</td>
+                <td>Pytanie</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>
+                    Zapisz komendę do pobrania obrazu <code>node:latest</code>.<br />
+                    <label>Odp1:</label>
+                    <input type="text" name="pyt1" value="" /><br />
+                </td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>
+                    Podaj komendę do sprawdzenia wszystkich już pobranych obrazów, zapisanych na lokalnej maszynie.<br />
+                    <label>Odp2:</label>
+                    <textarea name="pyt2"></textarea><br />
+                </td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>
+                    Czy Docker pozwala uruchamiać aplikacje w izolowanych kontenerach?<br />
+                    <label>Odp3:</label>
+                    <select name="pyt3">
+                        <option value="Tak">Tak</option> <!---->
+                        <option value="Nie">Nie</option>
+                    </select><br />
+                </td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>
+                    Co opisuje plik <code>Dockerfile</code>?<br />
+                    <label>Odp4:</label>
+                    <select name="pyt4" size="3">
+                        <option value="proces">Proces logowania do Docker Huba</option>
+                        <option value="kroki">Kroki potrzebne do zbudowania obrazu Dockera</option> <!---->
+                        <option value="konfiguracje">Konfigurację sieci kontenerów</option>
+                    </select><br />
+                </td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>
+                    Czy kontenery Dockera zawierają pełen system operacyjny, taki jak maszyna wirtualna?<br />
+                    <label>Odp5:</label><br />
+                    <input type="radio" name="pyt5" value="Tak" /><label>Tak</label><br />
+                    <input type="radio" name="pyt5" value="Nie" /><label>Nie</label><br /><!---->
+                </td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>
+                    Które z poniższych poleceń służą do zarządzania obrazami Dockera? <br />
+                    <label>Odp6:</label><br />
+                    <select name="pyt6" size="4" multiple>
+                        <option value="build">docker build</option><!---->
+                        <option value="ps">docker ps</option>
+                        <option value="rmi">docker rmi</option><!---->
+                        <option value="exec">docker exec</option>
+                    </select><br />
+                    <img src="../grafika/obrazek.jpg" alt="Obrazek Pomocniczy" /><br />
+                </td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td>
+                    Co można zrobić za pomocą polecenia <code>docker run</code><br />
+                    <label>Odp7</label><br />
+                    <input type="checkbox" name="pyt7.1" value="uruchomic" /><label>Uruchomić nowy kontener</label> <br /><!---->
+                    <input type="checkbox" name="pyt7.2" value="zbudowac" /><label>Zbudować nowy obraz</label> <br />
+                    <input type="checkbox" name="pyt7.3" value="okreslic" /><label>Określić porty i zmienne środowiskowe</label> <br /><!---->
+                    <input type="checkbox" name="pyt7.4" value="usunac" /><label>Usunąć istniejący kontener</label> <br />
+                </td>
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>
+                    Jakie są zalety korzystania z Dockera?<br />
+                    <label>Odp8</label><br />
+                    <input type="checkbox" name="pyt8" value="latwiejsze" /><label>Łatwiejsze wdrażanie aplikacji</label> <br /><!---->
+                    <input type="checkbox" name="pyt8" value="wieksze" /><label>Większe zużycie zasobów niż maszyny wirtualne</label> <br />
+                    <input type="checkbox" name="pyt8" value="spojne" /><label>Spójne środowisko między różnymi komputerami</label> <br /><!---->
+                    <input type="checkbox" name="pyt8" value="trudniejsza" /><label>Trudniejsza automatyzacja procesów CI/CD</label> <br />
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Sprawdź!</button>
+    </form>
+
+    @if (pokazWynik)
+    {
+        <h3>Twój wynik: @punkty / 8</h3>
+        <h3>Ocena: @ocena</h3>
+    }
+</div>

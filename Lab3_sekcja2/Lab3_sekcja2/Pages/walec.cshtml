@@ -17,8 +17,12 @@ stożka.-->
 
 <div>
 	<form method="get">
-		Wysokość: <input type="text" name="wysokosc" />
-		Promień: <input type="text" name="promien" />
+		Wysokość: <input type="text" name="wysokosc" /><br />
+		Promień: <input type="text" name="promien" /><br />
+		Wybierz bryłę:<br />
+		<input type="radio" name="bryla" value="walec" checked /> Walec<br />
+		<input type="radio" name="bryla" value="stozek" /> Stożek<br />
+		<input type="radio" name="bryla" value="podwojny_stozek" /> Podwójny stożek<br /><br />
 		<input type="submit" value="Oblicz" />
 	</form>
 	@{
@@ -26,14 +30,30 @@ stożka.-->
 		{
 			String h_ = Request.Query["wysokosc"].ToString();
 			String r_ = Request.Query["promien"].ToString();
-			double h, r, V, P;
+			String bryla = Request.Query["bryla"].ToString();
+			double h, r, V = 0, P = 0;
 			bool czyCalkowiteH = Regex.IsMatch(h_, @"^\d+$");
 			bool czyCalkowiteR = Regex.IsMatch(r_, @"^\d+$");
 			bool czyHParzyste = Regex.IsMatch(h_, @"^\d*[02468]{1}$");
 			h = Convert.ToDouble(h_);
 			r = Convert.ToDouble(r_);
-			V = Math.PI * Math.Pow(r, 2) * h;
-			P = (2 * Math.PI * Math.Pow(r, 2)) + (2 * Math.PI * r * h);
+			if (bryla == "walec")
+			{
+				V = Math.PI * Math.Pow(r, 2) * h;
+				P = (2 * Math.PI * Math.Pow(r, 2)) + (2 * Math.PI * r * h);
+			}
+			else if (bryla == "stozek")
+			{
+				V = (1.0 / 3.0) * Math.PI * Math.Pow(r, 2) * h;
+				P = Math.PI * r * (r + Math.Sqrt(Math.Pow(h, 2) + Math.Pow(r, 2)));
+			}
+			else if (bryla == "podwojny_stozek")
+			{
+				V = (2.0 / 3.0) * Math.PI * Math.Pow(r, 2) * h;
+				P = 2 * Math.PI * r * (r + Math.Sqrt(Math.Pow(h, 2) + Math.Pow(r, 2)));
+			}
+			// V = Math.PI * Math.Pow(r, 2) * h;
+			// P = (2 * Math.PI * Math.Pow(r, 2)) + (2 * Math.PI * r * h);
 			<table class="table table-striped" >
 				<tr>
 					<td>

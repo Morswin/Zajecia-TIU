@@ -32,3 +32,37 @@ C:\Users\Sprzetowo\Documents\Private Projects\Wejsciowka-Programowanie-Obiektowe
 C:\Users\Sprzetowo\Documents\Private Projects\Wejsciowka-Programowanie-Obiektowe-Cpp\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.pdb
 C:\Users\Sprzetowo\Documents\Private Projects\Wejsciowka-Programowanie-Obiektowe-Cpp\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.genruntimeconfig.cache
 C:\Users\Sprzetowo\Documents\Private Projects\Wejsciowka-Programowanie-Obiektowe-Cpp\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\ref\Lab3_sekcja2.dll
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\appsettings.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\Lab3_sekcja2.staticwebassets.endpoints.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\Lab3_sekcja2.staticwebassets.runtime.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\Lab3_sekcja2.exe
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\Lab3_sekcja2.deps.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\Lab3_sekcja2.runtimeconfig.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\Lab3_sekcja2.dll
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\bin\Debug\net8.0\Lab3_sekcja2.pdb
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.AssemblyInfoInputs.cache
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.AssemblyInfo.cs
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.csproj.CoreCompileInputs.cache
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.RazorAssemblyInfo.cache
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.RazorAssemblyInfo.cs
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.sourcelink.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\scopedcss\bundle\Lab3_sekcja2.styles.css
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\scopedcss\projectbundle\Lab3_sekcja2.bundle.scp.css
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.dll
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\refint\Lab3_sekcja2.dll
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.pdb
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\Lab3_sekcja2.genruntimeconfig.cache
+C:\Users\Sprzetowo\Documents\GitHub\Zajecia-TIU\Lab3_sekcja2\Lab3_sekcja2\obj\Debug\net8.0\ref\Lab3_sekcja2.dll
