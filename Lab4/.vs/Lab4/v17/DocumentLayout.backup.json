@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B20FF453-DF1A-41C5-93C0-BCB61CA16798}|Lab4\\Lab4.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\lab4\\lab4\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B20FF453-DF1A-41C5-93C0-BCB61CA16798}|Lab4\\Lab4.csproj|solutionrelative:lab4\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20FF453-DF1A-41C5-93C0-BCB61CA16798}|Lab4\\Lab4.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\lab4\\lab4\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B20FF453-DF1A-41C5-93C0-BCB61CA16798}|Lab4\\Lab4.csproj|solutionrelative:lab4\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20FF453-DF1A-41C5-93C0-BCB61CA16798}|Lab4\\Lab4.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\lab4\\lab4\\views\\test\\sprawdz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B20FF453-DF1A-41C5-93C0-BCB61CA16798}|Lab4\\Lab4.csproj|solutionrelative:lab4\\views\\test\\sprawdz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20FF453-DF1A-41C5-93C0-BCB61CA16798}|Lab4\\Lab4.csproj|c:\\users\\sprzetowo\\documents\\github\\zajecia-tiu\\lab4\\lab4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B20FF453-DF1A-41C5-93C0-BCB61CA16798}|Lab4\\Lab4.csproj|solutionrelative:lab4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\Lab4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\Lab4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvyAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T12:50:08.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sprawdz.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\Lab4\\Views\\Test\\Sprawdz.cshtml",
+              "RelativeDocumentMoniker": "Lab4\\Views\\Test\\Sprawdz.cshtml",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\Lab4\\Views\\Test\\Sprawdz.cshtml",
+              "RelativeToolTip": "Lab4\\Views\\Test\\Sprawdz.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T12:37:22.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\Lab4\\Views\\Test\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab4\\Views\\Test\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\Lab4\\Views\\Test\\Index.cshtml",
+              "RelativeToolTip": "Lab4\\Views\\Test\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwFQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T12:30:48.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\Lab4\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Lab4\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Sprzetowo\\Documents\\GitHub\\Zajecia-TIU\\Lab4\\Lab4\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Lab4\\Controllers\\TestController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywCMAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:30:09.108Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@if (ViewBag.Pole != null)
+{
+    <label>Pole:</label>
+    @Math.Round(ViewBag.Pole, 2);
+    <br />
+}
+@if (ViewBag.Objetosc != null)
+{
+    <label>Objętość:</label>
+    @Math.Round(ViewBag.Objetosc, 2);
+    <br />
+}
+
+<a asp-controller="Bryly" asp-action="Index">Wróć</a>

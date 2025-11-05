@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form asp-controller="Bryly" asp-action="Oblicz" method="get">
+    Wysokość: <input type="text" name="wysokosc"/><br />
+    Promień: <input type="text" name="promien"/><br />
+    <input type="radio" name="figura" value="walec" /><label for="walec">Walec</label>
+    <input type="radio" name="figura" value="stozek" /><label for="stozek">Stożek</label>
+    <input type="radio" name="figura" value="stozek2" /><label for="stozek2">Podwójny stożek</label>
+    <select name="obliczenia" multiple size="2">
+        <option value="pole">Pole powierzchni</option>
+        <option value="objetosc">Objętość</option>
+    </select>
+    <input type="submit" value="Oblicz" />
+</form>
