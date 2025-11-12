@@ -1,0 +1,92 @@
+﻿@model Lab_5.Models.Test
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h4>Test</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="pyt1" class="control-label">1. Zapisz komendę do pobrania obrazu <code>node:latest</code>.</label>
+                <input asp-for="pyt1" class="form-control" />
+                <span asp-validation-for="pyt1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pyt2" class="control-label">2. Podaj komendę do sprawdzenia wszystkich już pobranych obrazów, zapisanych na lokalnej maszynie.</label>
+                <textarea asp-for="pyt2" class="form-control"></textarea>
+                <span asp-validation-for="pyt2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pyt3" class="control-label">3. Czy Docker pozwala uruchamiać aplikacje w izolowanych kontenerach?</label>
+                <select asp-for="pyt3" class="form-control" name="pyt3">
+                    <option value="Tak">Tak</option> <!---->
+                    <option value="Nie">Nie</option>
+                </select>
+                <span asp-validation-for="pyt3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pyt4" class="control-label">4. Co opisuje plik <code>Dockerfile</code>?</label>
+                <select asp-for="pyt4" class="form-control" name="pyt4" size="3">
+                    <option value="proces">Proces logowania do Docker Huba</option>
+                    <option value="kroki">Kroki potrzebne do zbudowania obrazu Dockera</option> <!---->
+                    <option value="konfiguracje">Konfigurację sieci kontenerów</option>
+                </select>
+                <span asp-validation-for="pyt4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pyt5" class="control-label">5. Czy kontenery Dockera zawierają pełen system operacyjny, taki jak maszyna wirtualna?</label>
+                <input asp-for="pyt5" type="radio" name="pyt5" value="Tak" /><label>Tak</label><br />
+                <input asp-for="pyt5" type="radio" name="pyt5" value="Nie" /><label>Nie</label><br /><!---->
+                <span asp-validation-for="pyt5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pyt6" class="control-label">6. Które z poniższych poleceń służą do zarządzania obrazami Dockera?</label>
+                <select asp-for="pyt6" name="pyt6" size="4" multiple>
+                    <option value="build">docker build</option><!---->
+                    <option value="ps">docker ps</option>
+                    <option value="rmi">docker rmi</option><!---->
+                    <option value="exec">docker exec</option>
+                </select><br />
+                <span asp-validation-for="pyt6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">7. Co można zrobić za pomocą polecenia <code>docker run</code></label>
+                <input asp-for="pyt7_1" type="checkbox" name="pyt7_1" value="true" /><label>Uruchomić nowy kontener</label> <br /><!---->
+                <input asp-for="pyt7_2" type="checkbox" name="pyt7_2" value="true" /><label>Zbudować nowy obraz</label> <br />
+                <input asp-for="pyt7_3" type="checkbox" name="pyt7_3" value="true" /><label>Określić porty i zmienne środowiskowe</label> <br /><!---->
+                <input asp-for="pyt7_4" type="checkbox" name="pyt7_4" value="true" /><label>Usunąć istniejący kontener</label> <br />
+            </div>
+            <div class="form-group">
+                <label asp-for="pyt8" class="control-label">8. Jakie są zalety korzystania z Dockera?</label>
+                <input name="pyt8" type="checkbox" name="pyt8" value="latwiejsze" /><label>Łatwiejsze wdrażanie aplikacji</label> <br /><!---->
+                <input name="pyt8" type="checkbox" name="pyt8" value="wieksze" /><label>Większe zużycie zasobów niż maszyny wirtualne</label> <br />
+                <input name="pyt8" type="checkbox" name="pyt8" value="spojne" /><label>Spójne środowisko między różnymi komputerami</label> <br /><!---->
+                <input name="pyt8" type="checkbox" name="pyt8" value="trudniejsza" /><label>Trudniejsza automatyzacja procesów CI/CD</label> <br />
+                <span asp-validation-for="pyt8" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="punkty" class="control-label"></label>
+                @* <input asp-for="punkty" class="form-control" /> *@
+                @Model.punkty
+                <span asp-validation-for="punkty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sprawdz" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
